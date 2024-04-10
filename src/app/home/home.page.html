@@ -1,0 +1,135 @@
+<style>
+  .titulo{
+    color: #45060B;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+
+
+  .card{
+  border-radius:5px;
+  color: #ffffff;
+  background-color: #B91621;
+  }
+
+  .card-text{
+    margin-top: 3px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #45060B;
+    color: #45060B;
+  }
+
+  .footer{
+    color: #ffffff;
+    background-color: #B91621;
+  }
+</style>
+
+
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+ <h2 style="color: #b9162b;">RPG</h2>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1 class="titulo">Alguem quer batalhar?</h1>
+  <br>
+  <ion-grid>
+
+    <ion-row class="card">
+      <ion-col col-3>
+        <img src="../../assets/img/imagem1.jpg"/>
+      </ion-col>
+
+   <!-- uma coluna com varias linhas -->
+      <ion-col col-9>
+
+        <ion-row>
+         <span><h4>Dragnovith</h4></span> 
+        </ion-row>
+        <ion-row>
+          <span>Nivel 8: Mágico</span> 
+         </ion-row>
+         <br>
+        
+
+      </ion-col>
+    <!-- ------------------------- -->
+
+    
+
+    </ion-row>
+
+  
+   <ion-row class="card-text" style="justify-content: space-around;">
+    <span>Pontuação</span> 
+    <span>8735</span> 
+   </ion-row>
+
+    <!-- linhas e colunas -->
+
+     <ion-row class="card-text">
+      <ion-col col-4>
+        <span>
+          Força
+          <ion-icon name="add-circle-outline"></ion-icon>
+        </span>
+      </ion-col>
+      <ion-col col-4>
+        <span>
+          Vitalidade
+          <ion-icon name="add-circle-outline"></ion-icon>
+        </span>
+      </ion-col>
+      <ion-col col-4>
+        <span>
+          Destreza
+          <ion-icon name="add-circle-outline"></ion-icon>
+        </span>
+      </ion-col>
+     </ion-row>
+
+     <!-- -------------------- -->
+
+     <!-- varias linhas -->
+
+     <ion-row class="card-text" style="justify-content: space-around;">
+      <h4>Vitórias:</h4>
+      <h4>25</h4>
+     </ion-row>
+     <ion-row class="card-text" style="justify-content: space-around;">
+      <h4>Derrotas:</h4>
+      <h4>2</h4>
+     </ion-row>
+     <ion-row class="card-text" style="justify-content: space-around;">
+      <h4>Empates:</h4>
+      <h4>5</h4>
+     </ion-row>
+
+     <!-- --------------- -->
+ 
+  </ion-grid>
+</ion-content>
+
+<footer class="footer" >
+  <ion-row>
+    <ion-col>
+      <ion-row style="justify-content: space-around;">
+        <span><h4>Dragnovith</h4></span>
+      </ion-row>
+    </ion-col>
+  </ion-row>
+</footer>
+  
+
+
+  
+  
+
